@@ -1,0 +1,23 @@
+String num,sort,title,author,publisher;
+int price;
+String content,picture;
+int bunho,reproot,repstep,repindent,readcnt;
+
+- DAO
+input, output, detail(readcnt), search, modify, 
+replya, reply(stepup), totalrecord, page
+
+-explain
+> num : 도서번호
+> sort : 분류 <select / IT, 인문학, 경제>
+> title : 제목
+> author : 저자
+> publisher : 출판사
+> price : 가격
+> content : 요약(내용)
+> picture : 표지
+> bunho : 글 번호
+> reproot : 원래 글 번호
+> repstep : 스텝(계단)
+> repindent : 들여쓰기
+> readcnt : 조회수
